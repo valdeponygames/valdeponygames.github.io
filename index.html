@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Valdepony Games · Juegos y apps para Android</title>
+  <meta name="description" content="Valdepony Games: juegos y aplicaciones para Android. Haur Jolasak, EuskaraWise, Hiru txirlo y Mi Maleta.">
+  <meta name="theme-color" content="#111015">
+  <meta property="og:title" content="Valdepony Games">
+  <meta property="og:description" content="Juegos y apps para Android, hechos con cariño">
+  <meta property="og:image" content="img/logo-valdepony.png">
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Russo+One&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="wrap topbar__inner">
+      <a class="brand" href="#inicio" data-site="developer">Valdepony Games</a>
+      <nav class="nav">
+        <a href="#proyectos">Proyectos</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="inicio">
+    <section class="hero">
+      <div class="wrap hero__inner">
+        <img class="hero__logo" src="img/logo-valdepony.png" alt="Valdepony Games" width="600" height="848">
+        <p class="hero__tagline" id="tagline"></p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#proyectos">Ver proyectos</a>
+          <a class="btn btn--ghost" id="play-dev" href="#" target="_blank" rel="noopener" hidden>Google Play</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="proyectos">
+      <div class="wrap">
+        <h2 class="section__title">Nuestros proyectos</h2>
+        <p class="section__lead">Juegos y aplicaciones para Android.</p>
+        <div class="grid" id="project-grid"></div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="nosotros">
+      <div class="wrap about">
+        <h2 class="section__title">Sobre nosotros</h2>
+        <div id="about-text"></div>
+        <ul class="values">
+          <li><span>🔒</span> Sin cuentas ni registros</li>
+          <li><span>📴</span> Funcionan sin conexión</li>
+          <li><span>💛</span> Hechas con cariño</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="contacto">
+      <div class="wrap contact">
+        <h2 class="section__title">Contacto y soporte</h2>
+        <p class="section__lead">¿Dudas, problemas o sugerencias sobre alguna de nuestras apps? Escríbenos.</p>
+        <a class="btn btn--primary btn--big" id="email-btn" href="#">✉️ <span data-site="email"></span></a>
+        <div class="social" id="social"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <p>© <span id="year"></span> <span data-site="developer"></span></p>
+      <nav class="footer__links" id="privacy-links" aria-label="Políticas de privacidad"></nav>
+    </div>
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
