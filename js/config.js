@@ -55,8 +55,9 @@ const SITE = {
         "Colores, números, animales, música y cultura vasca, con un álbum de 45 pegatinas para coleccionar.",
       folder: "img/proyectos/haur-jolasak/",
       icon: "icono.png",
+      iconBg: "#ffffff",
       cover: "portada.jpg",
-      color: "#f3ece6",
+      color: "#fff7ef",
       screenshots: [
         ["01-menu-principal.jpg", "Menú principal"],
         ["02-menu-juegos.jpg", "Los 18 juegos"],
@@ -101,7 +102,7 @@ const SITE = {
         ["10_temas.jpg", "En euskera o en castellano, con modo oscuro"]
       ],
       languages: ["Euskera", "Castellano"],
-      packageId: "com.euskarawise.app",
+      packageId: "com.valdepony.euskarawise",
       published: false,
       status: "Próximamente",
       privacy: "privacidad/euskarawise.html"
@@ -158,6 +159,28 @@ const SITE = {
       published: false,
       status: "Próximamente",
       privacy: "privacidad/mi-maleta.html"
+    },
+    {
+      id: "olivar-incremental",
+      name: "Olivar Incremental",
+      type: "Juego incremental",
+      description:
+        "Varea el olivo para conseguir aceitunas, llévalas a la tolva y vende el aceite para mejorar tu olivar. " +
+        "Nuestro primer juego incremental: ahora mismo es un prototipo en fase beta, en pruebas internas.",
+      folder: "img/proyectos/olivar-incremental/",
+      icon: "icono.svg",
+      iconBg: "#1f2a16",
+      cover: "portada.jpg",
+      color: "#1f2a16",
+      screenshots: [
+        ["captura-01.jpg", "Vareando el olivo: las aceitunas caen con cada toque"],
+        ["captura-02.jpg", "Pantalla inicial, con el olivo y la tolva"]
+      ],
+      languages: ["Castellano"],
+      packageId: "",
+      published: false,
+      status: "En fase beta",
+      privacy: ""
     }
   ]
 };
