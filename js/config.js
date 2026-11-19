@@ -44,6 +44,7 @@ const SITE = {
      - status: texto de la etiqueta si NO está publicado ("Próximamente", "En desarrollo"…)
      - color: color de fondo mientras cargan las imágenes
      - privacy: ruta a su política de privacidad ("" si no tiene)
+     - playInBrowserUrl: enlace para jugarlo directamente en el navegador, si lo tiene ("" si no)
      --------------------------------------------------------- */
   projects: [
     {
@@ -165,18 +166,21 @@ const SITE = {
       name: "Olivar Incremental",
       type: "Juego incremental",
       description:
-        "Varea el olivo para conseguir aceitunas, llévalas a la tolva y vende el aceite para mejorar tu olivar. " +
-        "Nuestro primer juego incremental: ahora mismo es un prototipo en fase beta, en pruebas internas.",
+        "Varea el olivo, recoge la aceituna antes de que se estropee y haz aceite de más o menos calidad según " +
+        "cómo la trates. De noche gestionas la finca: mejoras, bodega, encargos, clima y plagas, campaña tras campaña. " +
+        "Nuestro primer juego incremental: un prototipo en fase beta, jugable ya en el navegador.",
       folder: "img/proyectos/olivar-incremental/",
       icon: "icono.svg",
       iconBg: "#1f2a16",
       cover: "portada.jpg",
       color: "#1f2a16",
+      playInBrowserUrl: "https://valdeponygames.github.io/olivar-incremental/",
       screenshots: [
-        ["captura-01.jpg", "Vareando el olivo: las aceitunas caen con cada toque"],
-        ["captura-02.jpg", "Pantalla inicial, con el olivo y la tolva"]
+        ["captura-01.jpg", "De día: varea el olivo y recoge la aceituna antes de que se estropee"],
+        ["captura-02.jpg", "De noche: árbol de mejoras en forma de telaraña"],
+        ["captura-03.jpg", "Vende el aceite en la bodega, según su calidad y el precio del día"]
       ],
-      languages: ["Castellano"],
+      languages: ["Castellano", "English", "Français"],
       packageId: "",
       published: false,
       status: "En fase beta",
