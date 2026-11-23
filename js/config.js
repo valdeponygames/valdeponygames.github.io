@@ -114,7 +114,7 @@ const SITE = {
       type: "Juego deportivo",
       description:
         "Los bolos vascos de tres bolos en canal, en tu móvil. Cae en la chapa, no te vayas a la kalea y tumba los tres. " +
-        "Física realista, viento, tienda de bolas y boleras, y partidas online con código de sala.",
+        "Física realista, viento, partidas online con código de sala, y una tienda con 6 bolas y 5 boleras distintas.",
       folder: "img/proyectos/hiru-txirlo/",
       icon: "icono.png",
       cover: "portada.jpg",
@@ -126,7 +126,7 @@ const SITE = {
         ["04-canal-y-grada.jpg", "El canal y el público en la grada"],
         ["05-hiru.jpg", "¡Hiru! Los tres bolos al suelo"],
         ["06-sala-online.jpg", "Sala online con código para tus amigos"],
-        ["07-tienda.jpg", "Tienda de bolas y boleras"],
+        ["07-tienda.jpg", "Tienda con 6 bolas y 5 boleras distintas"],
         ["08-clasificacion.jpg", "Clasificación final"],
         ["09-ayuda-euskera.jpg", "Ayuda y vocabulario, también en euskera"]
       ],
@@ -163,7 +163,7 @@ const SITE = {
     },
     {
       id: "olivar-incremental",
-      name: "Olivar Incremental",
+      name: "¡A Varear!",
       type: "Juego incremental",
       description:
         "Varea el olivo, recoge la aceituna antes de que se estropee y haz aceite de más o menos calidad según " +
@@ -171,14 +171,15 @@ const SITE = {
         "Nuestro primer juego incremental: un prototipo en fase beta, jugable ya en el navegador.",
       folder: "img/proyectos/olivar-incremental/",
       icon: "icono.svg",
-      iconBg: "#1f2a16",
+      iconBg: "#4f7d5b",
       cover: "portada.jpg",
       color: "#1f2a16",
       playInBrowserUrl: "https://valdeponygames.github.io/olivar-incremental/",
       screenshots: [
-        ["captura-01.jpg", "De día: varea el olivo y recoge la aceituna antes de que se estropee"],
-        ["captura-02.jpg", "De noche: árbol de mejoras en forma de telaraña"],
-        ["captura-03.jpg", "Vende el aceite en la bodega, según su calidad y el precio del día"]
+        ["captura-01.jpg", "Pantalla de inicio: elige campaña y continúa donde lo dejaste"],
+        ["captura-02.jpg", "De día: varea el olivo y recoge la aceituna antes de que se estropee"],
+        ["captura-03.jpg", "Ajustes, con el aviso de que es una versión de pruebas"],
+        ["captura-04.jpg", "Al completar el olivar: resumen de la campaña y mejoras permanentes"]
       ],
       languages: ["Castellano", "English", "Français"],
       packageId: "",
