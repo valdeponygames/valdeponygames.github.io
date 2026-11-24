@@ -45,6 +45,7 @@ const SITE = {
      - color: color de fondo mientras cargan las imágenes
      - privacy: ruta a su política de privacidad ("" si no tiene)
      - playInBrowserUrl: enlace para jugarlo directamente en el navegador, si lo tiene ("" si no)
+     - playIcon: emoji de ese botón (opcional; por defecto ▶️)
      --------------------------------------------------------- */
   projects: [
     {
@@ -174,6 +175,7 @@ const SITE = {
       cover: "portada.jpg",
       color: "#1f2a16",
       playInBrowserUrl: "https://valdeponygames.github.io/olivar-incremental/",
+      playIcon: "🫒",
       screenshots: [
         ["captura-01.jpg", "Pantalla de inicio: elige campaña y continúa donde lo dejaste"],
         ["captura-02.jpg", "De día: varea el olivo y recoge la aceituna antes de que se estropee"],
@@ -200,6 +202,7 @@ const SITE = {
       cover: "portada.jpg",
       color: "#0a1a2b",
       playInBrowserUrl: "https://valdeponygames.github.io/abyssal/",
+      playIcon: "🔱",
       screenshots: [
         ["captura-01.jpg", "Pantalla de inicio, con las 10 criaturas por descubrir"],
         ["captura-02.jpg", "La cámara abisal: lanza Luminas y fusiona las iguales"],

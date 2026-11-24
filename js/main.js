@@ -132,7 +132,7 @@
       );
     }
     if (p.playInBrowserUrl) {
-      actions.push(el("a", { class: "btn btn--primary", href: p.playInBrowserUrl, target: "_blank", rel: "noopener", text: "🫒 Jugar en el navegador" }));
+      actions.push(el("a", { class: "btn btn--primary", href: p.playInBrowserUrl, target: "_blank", rel: "noopener", text: (p.playIcon || "▶️") + " Jugar en el navegador" }));
     }
     if (shots.length) {
       actions.push(el("button", { class: "btn btn--shots", type: "button", text: "📷 Ver capturas (" + shots.length + ")", onclick: () => openGallery(p, 0) }));
