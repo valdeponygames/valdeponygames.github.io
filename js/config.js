@@ -171,7 +171,6 @@ const SITE = {
         "Nuestro primer juego incremental: un prototipo en fase beta, jugable ya en el navegador.",
       folder: "img/proyectos/olivar-incremental/",
       icon: "icono.svg",
-      iconBg: "#4f7d5b",
       cover: "portada.jpg",
       color: "#1f2a16",
       playInBrowserUrl: "https://valdeponygames.github.io/olivar-incremental/",
@@ -180,6 +179,31 @@ const SITE = {
         ["captura-02.jpg", "De día: varea el olivo y recoge la aceituna antes de que se estropee"],
         ["captura-03.jpg", "Ajustes, con el aviso de que es una versión de pruebas"],
         ["captura-04.jpg", "Al completar el olivar: resumen de la campaña y mejoras permanentes"]
+      ],
+      languages: ["Castellano", "English", "Français"],
+      packageId: "",
+      published: false,
+      status: "En fase beta",
+      privacy: ""
+    },
+    {
+      id: "abyssal",
+      name: "ABYSSAL",
+      type: "Arcade incremental",
+      description:
+        "El jardín de las profundidades: lanza Luminas a una cámara abisal, fusiona las iguales para que suban de nivel " +
+        "(hasta 10 criaturas distintas) y usa las monedas y la energía para mejorar el lanzador, el generador y el imán, " +
+        "y reparar la instalación. Nuestro segundo juego incremental: un prototipo en fase beta, jugable ya en el navegador.",
+      folder: "img/proyectos/abyssal/",
+      icon: "icono.png",
+      iconBg: "#0a1a2b",
+      cover: "portada.jpg",
+      color: "#0a1a2b",
+      playInBrowserUrl: "https://valdeponygames.github.io/abyssal/",
+      screenshots: [
+        ["captura-01.jpg", "Pantalla de inicio, con las 10 criaturas por descubrir"],
+        ["captura-02.jpg", "La cámara abisal: lanza Luminas y fusiona las iguales"],
+        ["captura-03.jpg", "Instalación: repara secciones con la energía de las fusiones"]
       ],
       languages: ["Castellano", "English", "Français"],
       packageId: "",
