@@ -205,14 +205,34 @@ const SITE = {
       playIcon: "🔱",
       screenshots: [
         ["captura-01.jpg", "Pantalla de inicio, con las 10 criaturas por descubrir"],
-        ["captura-02.jpg", "La cámara abisal: lanza Luminas y fusiona las iguales"],
-        ["captura-03.jpg", "Instalación: repara secciones con la energía de las fusiones"]
+        ["captura-02.jpg", "Lanza Luminas y mira cómo rebotan por la cámara"],
+        ["captura-03.jpg", "Dos Luminas iguales se fusionan en una del nivel siguiente"],
+        ["captura-04.jpg", "Instalación: repara secciones con la energía de las fusiones"],
+        ["captura-05.jpg", "¡Provoca una Supernova!"]
       ],
       languages: ["Castellano", "English", "Français"],
       packageId: "",
       published: false,
       status: "En fase beta",
       privacy: ""
+    },
+    {
+      id: "pilates-en-casa",
+      name: "Pilates en casa",
+      type: "App de ejercicio",
+      description:
+        "Tu tabla de pilates, siempre contigo: 35 ejercicios guiados por Lila, con tabla o en esterilla, " +
+        "rutinas con cuenta atrás, pitidos y voz, música relajante y tu progreso. Crea tus propios ejercicios y rutinas.",
+      folder: "img/proyectos/pilates-en-casa/",
+      icon: "icono.png",
+      cover: "portada.jpg",
+      color: "#4a2d78",
+      screenshots: [],
+      languages: ["Castellano"],
+      packageId: "com.valdepony.pilatesencasa",
+      published: false,
+      status: "Próximamente",
+      privacy: "privacidad/pilates-en-casa.html"
     }
   ]
 };
