@@ -5,14 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Valdepony Games · Juegos y apps para Android</title>
   <meta name="description" content="Valdepony Games: juegos y aplicaciones para Android. Haur Jolasak, EuskaraWise, Hiru txirlo y Mi Maleta.">
-  <meta name="theme-color" content="#111015">
+  <meta name="theme-color" content="#f2f1e9">
   <meta property="og:title" content="Valdepony Games">
   <meta property="og:description" content="Juegos y apps para Android, hechos con cariño">
   <meta property="og:image" content="img/logo-valdepony.png">
   <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Russo+One&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -44,7 +44,24 @@
       <div class="wrap">
         <h2 class="section__title">Nuestros proyectos</h2>
         <p class="section__lead">Juegos y aplicaciones para Android.</p>
-        <div class="grid" id="project-grid"></div>
+
+        <div class="project-group">
+          <div class="project-group__head">
+            <h3>Disponibles ahora</h3>
+            <span class="project-group__count" id="count-published"></span>
+          </div>
+          <p class="project-group__sub">Ya puedes descargarlas en Google Play.</p>
+          <div class="grid" id="grid-published"></div>
+        </div>
+
+        <div class="project-group" id="group-soon">
+          <div class="project-group__head">
+            <h3>En camino</h3>
+            <span class="project-group__count" id="count-soon"></span>
+          </div>
+          <p class="project-group__sub">En desarrollo o en pruebas. Algunas ya se pueden probar en el navegador.</p>
+          <div class="grid" id="grid-soon"></div>
+        </div>
       </div>
     </section>
 

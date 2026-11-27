@@ -117,7 +117,8 @@
   }
 
   /* ---------- Tarjetas de proyectos ---------- */
-  const grid = document.getElementById("project-grid");
+  const gridPublished = document.getElementById("grid-published");
+  const gridSoon = document.getElementById("grid-soon");
   const privacyLinks = document.getElementById("privacy-links");
 
   SITE.projects.forEach((p) => {
@@ -164,8 +165,16 @@
         p.privacy ? el("a", { class: "link", href: p.privacy, text: "Política de privacidad" }) : null
       ])
     ]);
-    grid.appendChild(card);
+    (p.published ? gridPublished : gridSoon).appendChild(card);
 
     if (p.privacy) privacyLinks.appendChild(el("a", { href: p.privacy, text: "Privacidad · " + p.name }));
   });
+
+  const published = SITE.projects.filter((p) => p.published);
+  const soon = SITE.projects.filter((p) => !p.published);
+  document.getElementById("count-published").textContent = published.length === 1 ? "1 app" : published.length + " apps";
+  document.getElementById("count-soon").textContent = soon.length === 1 ? "1 proyecto" : soon.length + " proyectos";
+  const groupSoon = document.getElementById("group-soon");
+  if (!soon.length) groupSoon.hidden = true;
+  if (!published.length) document.getElementById("grid-published").closest(".project-group").hidden = true;
 })();
