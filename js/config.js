@@ -171,7 +171,7 @@ const SITE = {
         "cómo la trates. De noche gestionas la finca: mejoras, bodega, encargos, clima y plagas, campaña tras campaña. " +
         "Nuestro primer juego incremental: un prototipo en fase beta, jugable ya en el navegador.",
       folder: "img/proyectos/olivar-incremental/",
-      icon: "icono.svg",
+      icon: "icono.png",
       cover: "portada.jpg",
       color: "#1f2a16",
       playInBrowserUrl: "https://valdeponygames.github.io/olivar-incremental/",
@@ -186,7 +186,7 @@ const SITE = {
       packageId: "",
       published: false,
       status: "En fase beta",
-      privacy: ""
+      privacy: "privacidad/olivar-incremental.html"
     },
     {
       id: "abyssal",
@@ -214,7 +214,7 @@ const SITE = {
       packageId: "",
       published: false,
       status: "En fase beta",
-      privacy: ""
+      privacy: "privacidad/abyssal.html"
     },
     {
       id: "pilates-en-casa",
